@@ -13,6 +13,9 @@
 		4DB7A854292E707B00592A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7A852292E707B00592A88 /* Main.storyboard */; };
 		4DB7A856292E707C00592A88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7A855292E707C00592A88 /* Assets.xcassets */; };
 		4DB7A859292E707C00592A88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7A857292E707C00592A88 /* LaunchScreen.storyboard */; };
+		4DB7A865292E70E800592A88 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7A864292E70E800592A88 /* User.swift */; };
+		4DB7A867292E8A5B00592A88 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7A866292E8A5B00592A88 /* ViewModel.swift */; };
+		4DB7A86A292E8A9D00592A88 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7A869292E8A9D00592A88 /* Dynamic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4DB7A855292E707C00592A88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DB7A858292E707C00592A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DB7A85A292E707D00592A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB7A864292E70E800592A88 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4DB7A866292E8A5B00592A88 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4DB7A869292E8A9D00592A88 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,58 @@
 		4DB7A84B292E707B00592A88 /* MVVM_LogIn */ = {
 			isa = PBXGroup;
 			children = (
+				4DB7A862292E709900592A88 /* ViewModels */,
+				4DB7A861292E708F00592A88 /* Views */,
+				4DB7A860292E708800592A88 /* Models */,
 				4DB7A84C292E707B00592A88 /* AppDelegate.swift */,
 				4DB7A84E292E707B00592A88 /* SceneDelegate.swift */,
-				4DB7A850292E707B00592A88 /* ViewController.swift */,
-				4DB7A852292E707B00592A88 /* Main.storyboard */,
 				4DB7A855292E707C00592A88 /* Assets.xcassets */,
-				4DB7A857292E707C00592A88 /* LaunchScreen.storyboard */,
 				4DB7A85A292E707D00592A88 /* Info.plist */,
 			);
 			path = MVVM_LogIn;
+			sourceTree = "<group>";
+		};
+		4DB7A860292E708800592A88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7A864292E70E800592A88 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DB7A861292E708F00592A88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7A850292E707B00592A88 /* ViewController.swift */,
+				4DB7A863292E70AA00592A88 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DB7A862292E709900592A88 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7A868292E8A8A00592A88 /* Bindings */,
+				4DB7A866292E8A5B00592A88 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4DB7A863292E70AA00592A88 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7A857292E707C00592A88 /* LaunchScreen.storyboard */,
+				4DB7A852292E707B00592A88 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4DB7A868292E8A8A00592A88 /* Bindings */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7A869292E8A9D00592A88 /* Dynamic.swift */,
+			);
+			path = Bindings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB7A867292E8A5B00592A88 /* ViewModel.swift in Sources */,
+				4DB7A865292E70E800592A88 /* User.swift in Sources */,
 				4DB7A851292E707B00592A88 /* ViewController.swift in Sources */,
+				4DB7A86A292E8A9D00592A88 /* Dynamic.swift in Sources */,
 				4DB7A84D292E707B00592A88 /* AppDelegate.swift in Sources */,
 				4DB7A84F292E707B00592A88 /* SceneDelegate.swift in Sources */,
 			);
