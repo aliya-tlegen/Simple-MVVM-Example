@@ -43,6 +43,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D9BAFB8292EAA6700383315 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7A84C292E707B00592A88 /* AppDelegate.swift */,
+				4DB7A84E292E707B00592A88 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4D9BAFB9292EAA8D00383315 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7A855292E707C00592A88 /* Assets.xcassets */,
+				4DB7A85A292E707D00592A88 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		4DB7A840292E707B00592A88 = {
 			isa = PBXGroup;
 			children = (
@@ -62,13 +80,11 @@
 		4DB7A84B292E707B00592A88 /* MVVM_LogIn */ = {
 			isa = PBXGroup;
 			children = (
-				4DB7A862292E709900592A88 /* ViewModels */,
-				4DB7A861292E708F00592A88 /* Views */,
+				4D9BAFB8292EAA6700383315 /* Application */,
 				4DB7A860292E708800592A88 /* Models */,
-				4DB7A84C292E707B00592A88 /* AppDelegate.swift */,
-				4DB7A84E292E707B00592A88 /* SceneDelegate.swift */,
-				4DB7A855292E707C00592A88 /* Assets.xcassets */,
-				4DB7A85A292E707D00592A88 /* Info.plist */,
+				4DB7A861292E708F00592A88 /* Views */,
+				4DB7A862292E709900592A88 /* ViewModels */,
+				4D9BAFB9292EAA8D00383315 /* Resources */,
 			);
 			path = MVVM_LogIn;
 			sourceTree = "<group>";
@@ -341,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 543CVV8NB3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MVVM_LogIn/Info.plist;
+				INFOPLIST_FILE = MVVM_LogIn/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -369,7 +385,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 543CVV8NB3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MVVM_LogIn/Info.plist;
+				INFOPLIST_FILE = MVVM_LogIn/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
